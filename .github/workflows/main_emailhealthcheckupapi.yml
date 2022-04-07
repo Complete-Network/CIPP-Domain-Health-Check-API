@@ -6,7 +6,7 @@ name: Build and deploy Powershell project to Azure Function App - EmailHealthChe
 on:
   push:
     branches:
-      - main
+      - dev
   workflow_dispatch:
 
 env:
